@@ -23,6 +23,7 @@ function out(state) {
     reset(state);
   }
 }
+
 // - balls and strikes reset to 0 when a `hit` is recorded.
 function hit() {
   return { ...initialState };
