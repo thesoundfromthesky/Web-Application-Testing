@@ -12,6 +12,7 @@ import React from "react";
 */
 export function Dashboard(props) {
   const { dispatchRecord } = props;
+
   return (
     <div>
       <h1>Dashboard</h1>
